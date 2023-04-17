@@ -2,9 +2,12 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+           var answer = Methods.Add(0,1,true);
+            Console.WriteLine(answer);
+    
         }
+       
     }
 }
